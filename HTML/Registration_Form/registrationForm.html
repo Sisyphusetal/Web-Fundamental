@@ -1,8 +1,16 @@
+<!-- Added boilerplate header and addressed label and input errors -->
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
     <h1>Registration Form</h1>
-    <body>
-        <p>First Name: *</p> 
+    <p>First Name: *</p> 
             <input type="text" name="first_name">
 
         <p>Last Name: *</p>
@@ -20,15 +28,16 @@
         <p>Birthday:</p>
             <input type="date">
 
+        <!-- Edited: changed checkbox to radio, fixed for to represent id, changed names to be identical -->
         <p>Gender Identity:</p>
-            <input type="checkbox" name="identity1" id="male">
-            <label for="identity1">Male</label>
-            <input type="checkbox" name="identity2" id="female">
-            <label for="identity2">Female</label>
-            <input type="checkbox" name="identity3" id="non-binary">
-            <label for="identity3">Non-binary</label>
-            <input type="checkbox" name="identity4" id="no_answer">
-            <label for="identity4">I prefer not to answer</label>
+            <input type="radio" name="gender_identity" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender_identity" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender_identity" id="non-binary">
+            <label for="non-binary">Non-binary</label>
+            <input type="radio" name="gender_identity" id="i_prefer_not_to_answer">
+            <label for="i_prefer_not_to_answer">I prefer not to answer</label>
 
         <p>A short description about myself:</p>
             <textarea name="description" cols="30" rows="5"></textarea>
@@ -45,9 +54,10 @@
             </select>
         </p>
 
+        <!-- Edited: fixed for to represent id instead of incorrect reference to name -->
         <p>
             <input type="checkbox" name="update_consent" id="updates">
-            <label for="update_consent">Yes, I would like to receive periodic updates</label>
+            <label for="updates">Yes, I would like to receive periodic updates</label>
         </p>
         
         <p>
@@ -55,5 +65,5 @@
         </p>
         
         <p>* Indicates a required field</p>
-    </body>
+</body>
 </html>
