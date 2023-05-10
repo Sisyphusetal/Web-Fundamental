@@ -1,0 +1,82 @@
+.container {
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.top-half {
+    height: 375px;
+    width: 500px;
+    background-color: red;
+}
+
+.left-rectangle {
+    height: 375px;
+    width: 115px;
+    background-color: white;
+    border-right: 10px solid black;
+}
+
+.top-white {
+    height: 187.5px;
+    width: 115px;
+    border-bottom: 5px solid black;
+}
+
+.bot-white {
+    height: 187.5px;
+    width: 115px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.red-square {
+    height: 375px;
+    width: 375px;
+}
+
+.bot-half {
+    display: flex;
+    height: 125px;
+    width: 500px;
+}
+
+.left-blue {
+    background-color: blue;
+    width: 126px;
+    height: 115px;
+    border-top: 10px solid black;
+    border-right: 5px solid black;
+}
+
+.white-rectangle {
+    background-color: white;
+    height: 115px;
+    width: 335px;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    border-left: 4px solid black;
+}
+
+.right-rectangle {
+    height: 125px;
+    width: 62.5px;
+}
+
+.small-white {
+    height: 53.5px;
+    width: 60.5px;
+    background-color: white;
+    border-top: 10px solid black;
+    border-bottom: 4px solid  black;
+    border-left: 2px solid black;
+}
+
+.small-yellow {
+    height: 53.5px;
+    width: 60.5px;
+    background-color: yellow;
+    border-top: 4px solid black;
+    border-left: 2px solid black;
+}
