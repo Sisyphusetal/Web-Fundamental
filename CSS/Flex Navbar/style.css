@@ -6,8 +6,9 @@ body {
 .nav {
     width: 700px;
     height: 70px;
-    background-color: gray;
+    background-color: rgb(95, 93, 93);
     display: flex;
+    justify-content: space-between;
 }
 
 h1 {
@@ -18,8 +19,34 @@ ul {
     list-style-type: none;
 }
 
-.nav-links {
+.nav-title {
     display: flex;
-    justify-content: right;
+    justify-content: left;
+    align-items: center;
+    color: white;
 }
 
+.nav-links {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(163, 162, 162);
+}
+
+.links {
+    padding: 10px;
+}
+
+.active {
+    color: white;
+}
+
+.btn {
+    background-color: teal;
+    color: white;
+    box-shadow: 1px 1px 5px 1px black;
+}
