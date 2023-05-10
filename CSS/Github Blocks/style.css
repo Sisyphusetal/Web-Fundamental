@@ -1,0 +1,50 @@
+body{
+    background-color: gray;
+    width: 700px;
+    height: 700px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container1 {
+    width: 700px;
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    justify-content: center;
+}
+
+.row-one {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container2 {
+    width: 700px;
+    background-color: rgb(2, 2, 146);
+    display: flex;
+    justify-content: center;
+}
+
+.row-two {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.container3 {
+    width: 700px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.row-three {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
