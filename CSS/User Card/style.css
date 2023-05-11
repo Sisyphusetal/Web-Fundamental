@@ -1,0 +1,65 @@
+
+/* Header Banner and PFP Icon */
+.header {
+    background-color: teal;
+    width: 700px;
+    height: 120px;
+    align-content: center;
+    margin: 0 auto;
+    border: solid black;
+}
+.pfp {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+
+/* Underbanner and basic descriptors */
+
+.container {
+    background-color: white;
+    width: 700px;
+    height: 240px;
+    align-content: center;
+    margin: 0 auto;
+    border: solid   black;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.location {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.map-marker {
+    height: 15px;
+    width: 9px;
+    padding-right: 5px;
+}
+
+.about-me {
+    margin-left: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.edit {
+    display: flex;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.gear {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
