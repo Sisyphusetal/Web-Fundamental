@@ -1,0 +1,270 @@
+.container {
+    display: flex;
+}
+
+/* NAVBAR SECTION */
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content:space-between;
+    align-items: center;
+}
+
+button {
+    background-color: teal;
+    color: white;
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+}
+
+.one {
+    font-size: 40px;
+    padding-left: 15%;
+}
+
+.two {
+    font-size: 20px;
+}
+
+.three {
+    font-size: 30px;
+}
+
+.four {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* -------------------------- COLUMN ONE -----------------------*/
+
+.column-one {
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+/* Column One Part 1 */
+/* Header Banner and PFP Icon */
+.header-one {
+    background-color: teal;
+    width: 520px;
+    height: 120px;
+    border: solid black;
+}
+.pfp {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+
+/*  Underbanner and basic descriptors  */
+
+.profile-content {
+    background-color: white;
+    width: 520px;
+    height: 290px;
+    border: solid   black;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.location {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.map-marker {
+    height: 15px;
+    width: 9px;
+    padding-right: 5px;
+}
+
+.about-me {
+    margin-left: 20px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.edit {
+    display: flex;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.gear {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+/* ---------------------- COLUMN ONE PART TWO ----------------------- */
+.header-two {
+    background-color: rgb(29, 28, 28);
+    width: 520px;
+    height: 80px;
+    border: solid black;
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+p {
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.education-description {
+    width: 520px;
+    height: 130px;
+    border: solid black;
+}
+
+.dojo {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.date {
+    color: rgb(179, 176, 176);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.classes {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* -------------- COLUMN TWO ------------------- */
+
+.column-two {
+    margin-left: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.header-one-ctwo {
+    background-color: rgb(29, 28, 28);
+    width: 350px;
+    height: 70px;
+    color: white;
+    display: flex;
+    font-size: 30px;
+    border: solid black;
+}
+.two-circle {
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.connection {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    display: flex;
+}
+
+.connection-requests {
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    border: solid black;
+    margin-bottom: 20px;
+}
+.person {
+    width: 50px;
+    height: 50px;
+}
+
+.choice-icon-accept {
+    width: 40px;
+    height: 40px;
+    padding-right: 5px;
+    padding-left: 90px;
+}
+
+.choice-icon-decline {
+    width: 40px;
+    height: 40px;
+    padding-right: 5px;
+}
+
+.name {
+    font-size: 25px;
+    text-emphasis: bold;
+    padding-left: 10px;
+}
+
+.connection {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* ------------------ COLUMN TWO PART TWO ------------------- */
+
+.header-two-ctwo {
+    background-color: rgb(29, 28, 28);
+    width: 350px;
+    height: 70px;
+    color: white;
+    display: flex;
+    font-size: 30px;
+    border: solid black;
+}
+
+.five-hundred {
+    width: 80px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.made-connections {
+    width: 350px;
+    height: 320px;
+    background-color: white;
+    border: solid black;
+    margin-bottom: 20px;
+}
+
+.view-more {
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    border: solid black;
+    text-align: left;
+    font-size: 20px;
+    text-emphasis: bold;
+    display: flex;
+}
+
+.view {
+    margin-top: 10px;
+    margin-left: 10px;
+}
