@@ -197,6 +197,7 @@ p {
     height: 50px;
 }
 
+
 .choice-icon-accept {
     width: 40px;
     height: 40px;
@@ -208,7 +209,7 @@ p {
     width: 40px;
     height: 40px;
     padding-right: 5px;
-}
+} 
 
 .name {
     font-size: 25px;
