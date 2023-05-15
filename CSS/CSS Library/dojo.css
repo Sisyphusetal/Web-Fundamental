@@ -1,0 +1,73 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Used on the + symbol from the button up assignment */
+.plus {
+    font-size: large;
+    background-color: rgb(68, 207, 207);
+    border-radius: 50%;
+    border-color: white;
+    height: 30px;
+    width: 30px;
+}
+
+/* Row and column classes from flex-ible columns assignment */
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    background-color: teal;
+    border: solid white;
+    color: white;
+}
+
+.col-2 {
+    flex: 2;
+    background-color: teal;
+    border: solid white;
+    color: white;
+}
+
+.col-3 {
+    flex: 3;
+    background-color: teal;
+    border: solid white;
+    color: white;
+}
+
+/* Navbar classes from Flex Navbar assignment */
+
+.nav {
+    width: 700px;
+    height: 70px;
+    background-color: rgb(95, 93, 93);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
