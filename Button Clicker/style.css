@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Navbar */
+nav{
+    width: 1200px;
+    height: 50px;
+    padding: 20px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    color: grey;
+    border: solid black;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.login {
+    width: 100px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    border: solid black;
+    box-shadow: 2px 2px 1px 1px black;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+.columns {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Column One */
+
+.column-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.ninja-one {
+    width: 900px;
+    height: 250px;
+    border: solid black;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.practitioner {
+    text-align: center;
+}
+
+.ninja-two {
+    width: 900px;
+    height: 250px;
+    border: solid black;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.ninja-definition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ninja-header {
+    font-size: 50px;
+    margin: 5px;
+    font-weight: 700;
+}
+.noun-header {
+    font-size: 30px;
+    margin: 5px;
+    font-style: italic;
+}
+
+.plural-header {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.likes {
+    width: 100px;
+    height: 35px;
+    background-color: rgb(233, 197, 129);
+    border: solid black;
+    box-shadow: 2px 2px 1px 1px black;
+    margin-top: 20px;
+}
+
+.practitioner-programmer {
+    font-size: 40px;
+}
+
+
+/* Column Two */
+
+.column-two {
+    display: flex;
+    align-content: baseline;
+    align-self: baseline;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.definition {
+    width: 300px;
+    height: 200px;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dojonary {
+    font-size: 40px;
+}
+
+.add-definition {
+    width: 270px;
+    height: 40px;
+    background-color: rgb(66, 158, 66);
+    margin-top: 30px;
+    border: solid black;
+    box-shadow: 2px 2px 1px 1px black;
+    font-size: 25px;
+}
