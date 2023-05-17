@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Navbars */
+
+.navbars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-one {
+    width: 1000px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+
+
+h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.nav-two {
+    width: 1000px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.your-feed {
+    margin-top: 10px;
+}
+
+/* Overall columns format */
+
+.columns {
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    align-items: flex-start;
+}
+
+/* Column One */
+
+.column-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.description-container {
+    width: 240px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.user-image {
+    width: 150px;
+    height: 150px;
+}
+
+.add-avatar {
+    font-size: 25px;
+}
+
+.username {
+    font-size: 35px;
+}
+
+
+
+/* Column Two */
+
+.column-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.user-container {
+    width: 700px;
+    height: 200px;
+    border: solid black;
+    margin-bottom: 20px;
+}
+
+.user {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.names {
+    margin-left: 20px;
+    margin-right: 40px;
+    font-size: 45px;
+}
+
+
+#like-amount-one {
+    margin-left: 50px;
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+#like-amount-two {
+    margin-left: 50px;
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+#like-amount-three {
+    margin-left: 50px;
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+.likes-text {
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+
+#like-button-one {
+    width: 160px;
+    height: 70px;
+    background-color: rgb(245, 201, 119);
+    border: solid black;
+    box-shadow: 3px 2px 1px 1px black;
+    margin-right: 20px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+#like-button-two {
+    width: 160px;
+    height: 70px;
+    background-color: rgb(245, 201, 119);
+    border: solid black;
+    box-shadow: 3px 2px 1px 1px black;
+    margin-right: 20px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+#like-button-three {
+    width: 160px;
+    height: 70px;
+    background-color: rgb(245, 201, 119);
+    border: solid black;
+    box-shadow: 3px 2px 1px 1px black;
+    margin-right: 20px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.feed-text {
+    text-align: left;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
